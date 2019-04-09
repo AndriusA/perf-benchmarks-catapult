@@ -171,7 +171,7 @@ class CanvasToBlobPage(ToughCanvasPage):
 
 class ManyImagesPage(ToughCanvasPage):
   BASE_NAME = 'many_images'
-  URL = 'file://../../../../chrome/test/data/perf/canvas_bench/many_images.html'
+  URL = 'file://../../data/canvas_bench/many_images.html'
 
 
 class CanvasArcPage(ToughCanvasPage):

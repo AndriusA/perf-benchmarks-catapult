@@ -9,6 +9,9 @@ from telemetry import benchmark
 from telemetry.internal.browser import browser_finder
 from telemetry.internal.util import path as path_module
 
+from telemetry.web_perf import timeline_based_measurement
+from telemetry.timeline import chrome_trace_category_filter
+
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..',
                              '..', 'variations'))
@@ -112,6 +115,18 @@ class PerfBenchmark(benchmark.Benchmark):
       options.AppendExtraBrowserArgs(
           '--disable-features=SurfaceSynchronization')
     self.SetExtraBrowserOptions(options)
+
+  def CreateCoreTimelineBasedMeasurementOptions(self):
+    cat_filter = chrome_trace_category_filter.ChromeTraceCategoryFilter(
+        filter_string='rail,toplevel')
+
+    options = timeline_based_measurement.Options(cat_filter)
+    options.config.enable_chrome_trace = True
+    options.SetTimelineBasedMetrics([
+        'clockSyncLatencyMetric',
+        'tracingMetric',
+    ])
+    return options
 
   @staticmethod
   def FixupTargetOS(target_os):

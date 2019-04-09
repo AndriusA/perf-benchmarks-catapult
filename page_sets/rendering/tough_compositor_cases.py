@@ -101,7 +101,7 @@ class NewTilingsPage(ToughCompositorWaitPage):
 class CSSOpacityPlusNLayers0(ToughCompositorWaitPage):
   BASE_NAME = 'css_opacity_plus_n_layers_0'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'css_opacity_plus_n_layers.html?layer_count=1&visible_layers=1')
 
 
@@ -109,7 +109,7 @@ class CSSOpacityPlusNLayers0(ToughCompositorWaitPage):
 class CSSOpacityPlusNLayers50(ToughCompositorWaitPage):
   BASE_NAME = 'css_opacity_plus_n_layers_50'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'css_opacity_plus_n_layers.html?layer_count=31&visible_layers=10')
 
 
@@ -117,7 +117,7 @@ class CSSOpacityPlusNLayers50(ToughCompositorWaitPage):
 class CSSOpacityPlusNLayers75(ToughCompositorWaitPage):
   BASE_NAME = 'css_opacity_plus_n_layers_75'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'css_opacity_plus_n_layers.html?layer_count=53&visible_layers=16')
 
 
@@ -125,14 +125,14 @@ class CSSOpacityPlusNLayers75(ToughCompositorWaitPage):
 class CSSOpacityPlusNLayers95(ToughCompositorWaitPage):
   BASE_NAME = 'css_opacity_plus_n_layers_95'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'css_opacity_plus_n_layers.html?layer_count=144&visible_layers=29')
 
 # Why: CSS property change on 1 layer with 99%-ile layer count """
 class CSSOpacityPlusNLayers99(ToughCompositorWaitPage):
   BASE_NAME = 'css_opacity_plus_n_layers_99'
   SUPPORTED_PLATFORMS = platforms.ALL_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'css_opacity_plus_n_layers.html?layer_count=306&visible_layers=46')
 
 
@@ -140,7 +140,7 @@ class CSSOpacityPlusNLayers99(ToughCompositorWaitPage):
 class JSOpacityPlusNLayers0(ToughCompositorWaitPage):
   BASE_NAME = 'js_opacity_plus_n_layers_0'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_opacity_plus_n_layers.html?layer_count=1&visible_layers=1')
 
 
@@ -148,7 +148,7 @@ class JSOpacityPlusNLayers0(ToughCompositorWaitPage):
 class JSOpacityPlusNLayers50(ToughCompositorWaitPage):
   BASE_NAME = 'js_opacity_plus_n_layers_50'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_opacity_plus_n_layers.html?layer_count=31&visible_layers=10')
 
 
@@ -156,7 +156,7 @@ class JSOpacityPlusNLayers50(ToughCompositorWaitPage):
 class JSOpacityPlusNLayers75(ToughCompositorWaitPage):
   BASE_NAME = 'js_opacity_plus_n_layers_75'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_opacity_plus_n_layers.html?layer_count=53&visible_layers=16')
 
 
@@ -164,7 +164,7 @@ class JSOpacityPlusNLayers75(ToughCompositorWaitPage):
 class JSOpacityPlusNLayers95(ToughCompositorWaitPage):
   BASE_NAME = 'js_opacity_plus_n_layers_95'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_opacity_plus_n_layers.html?layer_count=144&visible_layers=29')
 
 
@@ -172,7 +172,7 @@ class JSOpacityPlusNLayers95(ToughCompositorWaitPage):
 class JSOpacityPlusNLayers99(ToughCompositorWaitPage):
   BASE_NAME = 'js_opacity_plus_n_layers_99'
   SUPPORTED_PLATFORMS = platforms.ALL_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_opacity_plus_n_layers.html?layer_count=306&visible_layers=46')
 
 
@@ -180,7 +180,7 @@ class JSOpacityPlusNLayers99(ToughCompositorWaitPage):
 class JSPaintPlusNLayers0(ToughCompositorWaitPage):
   BASE_NAME = 'js_paint_plus_n_layers_0'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_paint_plus_n_layers.html?layer_count=1&visible_layers=1')
 
 
@@ -188,7 +188,7 @@ class JSPaintPlusNLayers0(ToughCompositorWaitPage):
 class JSPaintPlusNLayers50(ToughCompositorWaitPage):
   BASE_NAME = 'js_paint_plus_n_layers_50'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_paint_plus_n_layers.html?layer_count=31&visible_layers=10')
 
 
@@ -196,7 +196,7 @@ class JSPaintPlusNLayers50(ToughCompositorWaitPage):
 class JSPaintPlusNLayers75(ToughCompositorWaitPage):
   BASE_NAME = 'js_paint_plus_n_layers_75'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_paint_plus_n_layers.html?layer_count=53&visible_layers=16')
 
 
@@ -204,7 +204,7 @@ class JSPaintPlusNLayers75(ToughCompositorWaitPage):
 class JSPaintPlusNLayers95(ToughCompositorWaitPage):
   BASE_NAME = 'js_paint_plus_n_layers_95'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_paint_plus_n_layers.html?layer_count=144&visible_layers=29')
 
 
@@ -212,7 +212,7 @@ class JSPaintPlusNLayers95(ToughCompositorWaitPage):
 class JSPaintPlusNLayers99(ToughCompositorWaitPage):
   BASE_NAME = 'js_paint_plus_n_layers_99'
   SUPPORTED_PLATFORMS = platforms.ALL_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'js_paint_plus_n_layers.html?layer_count=306&visible_layers=46')
 
 
@@ -228,7 +228,7 @@ class InfiniteScrollElementNLayersPage(ToughCompositorPage):
 class InfiniteScrollElementNLayers0(InfiniteScrollElementNLayersPage):
   BASE_NAME = 'infinite_scroll_element_n_layers_0'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_element_n_layers.html?layer_count=1')
 
 
@@ -236,7 +236,7 @@ class InfiniteScrollElementNLayers0(InfiniteScrollElementNLayersPage):
 class InfiniteScrollElementNLayers50(InfiniteScrollElementNLayersPage):
   BASE_NAME = 'infinite_scroll_element_n_layers_50'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_element_n_layers.html?layer_count=31')
 
 
@@ -244,7 +244,7 @@ class InfiniteScrollElementNLayers50(InfiniteScrollElementNLayersPage):
 class InfiniteScrollElementNLayers75(InfiniteScrollElementNLayersPage):
   BASE_NAME = 'infinite_scroll_element_n_layers_75'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_element_n_layers.html?layer_count=53')
 
 
@@ -252,7 +252,7 @@ class InfiniteScrollElementNLayers75(InfiniteScrollElementNLayersPage):
 class InfiniteScrollElementNLayers95(InfiniteScrollElementNLayersPage):
   BASE_NAME = 'infinite_scroll_element_n_layers_95'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_element_n_layers.html?layer_count=144')
 
 
@@ -260,7 +260,7 @@ class InfiniteScrollElementNLayers95(InfiniteScrollElementNLayersPage):
 class InfiniteScrollElementNLayers99(InfiniteScrollElementNLayersPage):
   BASE_NAME = 'infinite_scroll_element_n_layers_99'
   SUPPORTED_PLATFORMS = platforms.ALL_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_element_n_layers.html?layer_count=306')
 
 
@@ -276,7 +276,7 @@ class InfiniteScrollRootNLayersPage(ToughCompositorPage):
 class InfiniteScrollRootNLayers0(InfiniteScrollRootNLayersPage):
   BASE_NAME = 'infinite_scroll_root_n_layers_0'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_root_n_layers.html?layer_count=1')
 
 
@@ -284,7 +284,7 @@ class InfiniteScrollRootNLayers0(InfiniteScrollRootNLayersPage):
 class InfiniteScrollRootNLayers50(InfiniteScrollRootNLayersPage):
   BASE_NAME = 'infinite_scroll_root_n_layers_50'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_root_n_layers.html?layer_count=31')
 
 
@@ -292,7 +292,7 @@ class InfiniteScrollRootNLayers50(InfiniteScrollRootNLayersPage):
 class InfiniteScrollRootNLayers75(InfiniteScrollRootNLayersPage):
   BASE_NAME = 'infinite_scroll_root_n_layers_75'
   SUPPORTED_PLATFORMS = platforms.MOBILE_ONLY
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_root_n_layers.html?layer_count=53')
 
 
@@ -300,7 +300,7 @@ class InfiniteScrollRootNLayers75(InfiniteScrollRootNLayersPage):
 class InfiniteScrollRootNLayers95(InfiniteScrollRootNLayersPage):
   BASE_NAME = 'infinite_scroll_root_n_layers_95'
   SUPPORTED_PLATFORMS = platforms.NO_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_root_n_layers.html?layer_count=144')
 
 
@@ -308,5 +308,5 @@ class InfiniteScrollRootNLayers95(InfiniteScrollRootNLayersPage):
 class InfiniteScrollRootNLayers99(InfiniteScrollRootNLayersPage):
   BASE_NAME = 'infinite_scroll_root_n_layers_99'
   SUPPORTED_PLATFORMS = platforms.ALL_PLATFORMS
-  URL = ('file://../../../../chrome/test/data/perf/tough_compositor_cases/'
+  URL = ('file://../../data/tough_compositor_cases/'
          'infinite_scroll_root_n_layers.html?layer_count=306')
