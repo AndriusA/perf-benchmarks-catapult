@@ -1,0 +1,12 @@
+{
+    "archives": {
+        "TrivialPageBlankDeterministic": {
+            "DEFAULT": "adblock_response_overheads_benchmark_085db1f2ee.wprgo"
+        },
+        "TrivialPageBlankRealistic": {
+            "DEFAULT": "adblock_response_overheads_benchmark_085db1f2ee.wprgo"
+        }
+    },
+    "description": "Describes the Web Page Replay archives for a story set. Don't edit by hand! Use record_wpr for updating.",
+    "platform_specific": true
+}

@@ -1,0 +1,3 @@
+*.html
+/artifacts
+*.pyc

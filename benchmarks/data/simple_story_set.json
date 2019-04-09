@@ -1,0 +1,9 @@
+{
+    "archives": {
+        "https://example.com": {
+            "DEFAULT": "simple_story_set_5704ec0dcd.wprgo"
+        }
+    },
+    "description": "Describes the Web Page Replay archives for a story set. Don't edit by hand! Use record_wpr for updating.",
+    "platform_specific": true
+}
